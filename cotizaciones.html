@@ -3,39 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text.css" href="./reset.css" />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
     <title>Cotizaciones</title>
   </head>
   <body>
     <header>
-      <h1>Cotizaciones</h1>
-      <hr />
-      <a href="./index.html">HOME</a>
+      <h1 class="title">Cotizaciones</h1>
+      <a class="nav_bar" href="./index.html">HOME</a>
+      <a class="nav_bar" href="./index.html">MENU</a>
+      <a class="nav_bar" href="./index.html">PROMOCIONES</a>
     </header>
-    <hr />
     <main>
       <div>
-        <h3>Rellene el formulario para comunicarnos contigo</h3>
+        <h3 class="title">Rellene el formulario para comunicarnos contigo</h3>
       </div>
-      <form>
-        <div>
-          <label>Nombre:</label>
-          <input type="text" />
-        </div>
-        <div>
-          <label>Apellido:</label>
-          <input type="text" />
-        </div>
-        <div>
-          <label>Telefono:</label>
-          <input type="number" />
-        </div>
-        <div>
-          <label>Correo:</label>
-          <input type="text" />
-        </div>
-        <button>ENVIAR</button>
-      </form>
-      <hr />
+      <div>
+        <form>
+          <div class="formulario">
+            <label>Nombre:</label>
+            <input type="text" />
+          </div>
+          <div class="formulario">
+            <label>Apellido:</label>
+            <input type="text" />
+          </div>
+          <div class="formulario">
+            <label>Telefono:</label>
+            <input type="number" />
+          </div>
+          <div class="formulario">
+            <label>Correo:</label>
+            <input type="text" />
+          </div>
+          <button>ENVIAR</button>
+        </form>
+      </div>
     </main>
+    <footer>
+      <p>contactanos</p>
+      <p>55-333-44-22</p>
+    </footer>
   </body>
 </html>

@@ -1,0 +1,43 @@
+body {
+  font-family: serif;
+  background-color: #f7dcbb;
+  color: #333;
+  margin: 1px;
+}
+
+.imagen {
+  width: 200px;
+  margin: 1%;
+}
+.title {
+  background-color: red;
+  margin: 0;
+  width: 100%;
+}
+.nav_bar {
+  font-size: 14px;
+}
+footer {
+  background-color: black;
+  color: #ee901d;
+  margin: 1px;
+  width: 100%;
+}
+#cards-container {
+  display: flex;
+  justify-content: space-around;
+  width: 60vw;
+  height: fit-content;
+}
+.cards {
+  margin-top: 1vw;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.formulario {
+  display: flex;
+  width: 20vw;
+  justify-content: space-between;
+}

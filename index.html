@@ -3,70 +3,71 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text.css" href="./reset.css" />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
     <title>Mi Primer Sitio Web</title>
   </head>
 
   <body>
     <header>
-      <h1>Alitas Hot Wing</h1>
-      <span>HOME</span>
-      <span>MENÚ</span>
-      <span>PROMOCIONES</span>
+      <h1 class="title">Alitas Hot Wing</h1>
+      <span class="nav_bar">HOME</span>
+      <span class="nav_bar">MENÚ</span>
+      <span class="nav_bar">PROMOCIONES</span>
     </header>
-    <hr />
     <main>
       <section>
-        <h2>Las Mejores Alitas de la Región</h2>
+        <h2 class="title">Las Mejores Alitas de la Región</h2>
         <img
-          src="./aitas-de-pollo-a-la-americana-o-buffalo-wings-t.jpg"
+          src="./img/aitas-de-pollo-a-la-americana-o-buffalo-wings-t.jpg"
           alt="imagen de alitas"
+          class="imagen"
         />
-        <hr />
         <article>
-          <h3>Ubicación</h3>
+          <h3 class="title">Ubicación</h3>
           <div>
             <p>Calle Naranja #253A, Pueblo Paleta</p>
           </div>
-          <hr />
         </article>
+
         <article>
-          <h3>Menú</h3>
-          <div>
-            <p>Platillos</p>
-            <ul>
-              <li>6 alitas - $100</li>
-              <li>6 boneless - $110</li>
-              <li>1/2 kilo de alitas - $180</li>
-              <li>1/2 kilo de boneless - $190</li>
-              <li>1 kilo de alitas - $250</li>
-              <li>1 kilo de boneless - $260</li>
-              <li>1 orden de papas fritas - $50</li>
-            </ul>
-          </div>
-          <div>
-            <p>Salsas</p>
-            <p>De mayor a menor picante</p>
-            <ol>
-              <li>Extreme Hot</li>
-              <li>Buffalo Hot</li>
-              <li>Mango Habanero</li>
-              <li>Buffalo</li>
-              <li>Mango Limon</li>
-              <li>BBQ</li>
-            </ol>
+          <h3 class="title">Menú</h3>
+          <div id="cards-container">
+            <div class="cards">
+              <p>Platillos</p>
+              <ul>
+                <li>6 alitas - $100</li>
+                <li>6 boneless - $110</li>
+                <li>1/2 kilo de alitas - $180</li>
+                <li>1/2 kilo de boneless - $190</li>
+                <li>1 kilo de alitas - $250</li>
+                <li>1 kilo de boneless - $260</li>
+                <li>1 orden de papas fritas - $50</li>
+              </ul>
+            </div>
+            <div class="cards">
+              <p>Salsas (De mayor a menor picante)</p>
+              <ol>
+                <li>Extreme Hot</li>
+                <li>Buffalo Hot</li>
+                <li>Mango Habanero</li>
+                <li>Buffalo</li>
+                <li>Mango Limon</li>
+                <li>BBQ</li>
+              </ol>
+            </div>
           </div>
         </article>
-        <hr />
-        <article>
-          <h3>Promociones</h3>
+
+        <div>
+          <h3 class="title">Promociones</h3>
           <div>
             <p>
               Por solo $300 recibe 1 kilo de alitas/boneless, 1 orden de papas y
               1 refresco de 1 litro.
             </p>
           </div>
-        </article>
-        <hr />
+        </div>
       </section>
     </main>
     <footer>
